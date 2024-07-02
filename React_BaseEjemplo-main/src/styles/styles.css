@@ -1,0 +1,196 @@
+.marca {
+    font-family: 'Dancing Script', cursive;
+    color: #321b1b;
+    padding: 26px;
+}
+
+.menu-header {
+    display: inline-flex;
+    align-items: center;
+    background-color: #fbbfaa;
+    width: 100%;
+}
+
+nav{
+    position: absolute;
+    right: 41px;
+    top: 40px;
+}
+
+main {
+    padding: 0 26px;
+}
+
+
+body{
+    background-color: #f6e5ab;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lista{
+	display: inline;
+	margin-left: 10px;
+    padding: 0 12px;
+}
+
+.lista a {
+    color:#321b1b ;
+}
+
+section{
+    padding: 8px;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.titulo-receta {
+    font-family: 'Dancing Script', cursive;
+    color: #321b1b; 
+    padding: 9px;
+}
+
+img{
+    border-radius: 25px;
+}
+
+.ingredientes{
+    font-weight: bold;
+}
+.receta-descripcion{
+    font-style: italic;
+}
+.boton-recetas{
+    background-color: #fbe497;
+    border: 1px solid #50232e;
+}
+
+.boton-recetas:hover {
+    
+    background-color: #f77c3e;
+}
+
+.contedor-botonrecetas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.menu-footer {
+    display: inline-flex;
+    align-items: center;
+    background-color: #efad95;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+}
+
+.menu-footer ul{
+    margin: 0;
+}
+.menu-footer .lista a {
+    color:#3e2a2a;
+}
+
+.alinear-imagen{
+    text-align: center;
+}
+
+.cursiva{
+    font-family: 'Dancing Script', cursive;
+}
+
+h4{
+    font-size: 17px;
+}
+
+.descripcion-quienessomos{
+    font-size: 13px;
+}
+.sub-quienessmos{
+    font-size: 20px;
+}
+
+label{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+
+.letra-verde{
+    color: green;
+}
+
+.agradecimiento{
+    font-size: 15px;
+    text-align: center;
+}
+
+.formulario{
+    font-family: 'Dancing Script', cursive;
+    align-items: center;
+    font-size: 18px;
+    list-style: none;
+}
+
+.centrado-formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.main-formulario{
+    height: calc(100vh - 175px);
+}
+
+.datos{
+font-style: italic;
+font-family: 'Open Sans', sans-serif;
+}
+
+.boton-enviar{
+    background-color: #2dc71f;
+    border: 1px solid #1f740f;
+}
+
+.boton-enviar:disabled {
+    background-color:rgb(0 0 0 / 8%);
+    border: 1px solid #cfd8cd;
+}
+
+.contedor-boton-enviar{
+    width: 100%;
+    display: flex;
+    padding: 8px;
+}
+
+
+/* index login */
+.registro-con-exito{
+    align-items: center;
+    color: green;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contra-incorrecta{
+    align-items: center;
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.receta-loading {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.ingrediente-button {
+    margin-left: 8px;
+}
